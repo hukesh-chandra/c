@@ -16,6 +16,6 @@ int main(){
     }
     float surcharge = totalBill * 0.20;
     totalBill += surcharge;
-    printf("Total electricity bill:Rs. %.2f\n", totalBill);
+    printf("Total electricity bill: Rs.%.2f\n", totalBill);
     return 0;
 }
